@@ -1,0 +1,9 @@
+{
+	"server_ip": "192.168.12.75",
+	"server_port": "3102",
+	"mysql": "mysql://root:admin@192.168.12.75:3306/local_hornbill",
+	"memcached_port": "11211",
+	"memcached_time": 1000000,
+	"dns_url": "fedev.xxxx.com",
+	"local_port": "2016"
+}

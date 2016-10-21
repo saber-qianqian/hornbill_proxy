@@ -1,0 +1,23 @@
+{
+  "name": "hornbill_proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./service.sh restart"
+  },
+  "dependencies": {
+    "orm": "~2.1.29",
+    "memcached": "~2.2.1",
+    "mysql": "~2.10.2"
+  },
+  "description": "## 代理原理 通过内网dns泛解析域名*.fedev.xxxx.com，将请求解析到192.168.12.75。",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "yunqian",
+  "license": "ISC"
+}
